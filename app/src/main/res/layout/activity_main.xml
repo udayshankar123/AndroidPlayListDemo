@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/udayshankar"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="55dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:paddingTop="2dp"
+
+
+            android:text="@string/amazon_com_is_an_e_commerce_platform_that_sells_many_product_lines_including_media_books_movies_music_and_software_apparel_baby_products_consumer_electronics_beauty_products_gourmet_food_groceries_health_and_personal_care_products_industrial_scientific_supplies_kitchen_items_jewelry_watches_lawn_and_garden_items_musical_instruments_sporting_goods_tools_automotive_items_toys_and_games_and_farm_supplies_45_and_consulting_services_46_amazon_websites_are_country_specific_for_example_amazon_com_for_the_us_and_amazon_co_uk_for_uk_though_some_offer_international_shipping_47_visits_to_amazon_com_grew_from_615_million_annual_visitors_in_2008_48_to_more_than_2_billion_per_month_in_2022_49_the_e_commerce_platform_is_the_14th_most_visited_website_in_the_world_50_results_generated_by_amazon_s_search_engine_are_partly_determined_by_promotional_fees_51_the_company_s_localized_storefronts_which_differ_in_selection_and_prices_are_differentiated_by_top_level_domain_and_country_code"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+
+</LinearLayout>
